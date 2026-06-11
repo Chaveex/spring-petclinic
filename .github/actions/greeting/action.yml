@@ -12,5 +12,5 @@ outputs:
   greeting_message:
     description: 'J espère que tu vas bien'
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'index.js'
