@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: Run a one-line script
         run: echo "Hello, World!"
   
@@ -16,8 +16,8 @@ jobs:
       - name: test after build
         run: echo "after build"
   
-  tests2:
-    runs-on: ubuntu latest
-    steps:
-      - name: test in parallel with build
-        run: echo "parallel with build"
+  # tests2:
+  #   runs-on: ubuntu latest
+  #   steps:
+  #     - name: test in parallel with build
+  #       run: echo "parallel with build"
